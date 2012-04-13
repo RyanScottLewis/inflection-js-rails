@@ -12,7 +12,7 @@ Now run `bundle install`
 
 ### Rails 3.0
 
-This gem adds a single generator to Rails 3, `inflection_js:install`.
+This gem adds a single generator to Rails 3, `inflectionjs:install`.
 
 Running the generator will copy over `inflection.js` to your assets to `public/javascript/`.
 

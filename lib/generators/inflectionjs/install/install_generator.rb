@@ -2,15 +2,15 @@ require 'rails'
 
 # Supply generator for Rails 3.0.x or if asset pipeline is not enabled
 if ::Rails.version < "3.1" || !::Rails.application.config.assets.enabled
-  module InflectionJs
+  module Inflectionjs
     module Generators
       class InstallGenerator < ::Rails::Generators::Base
 
-        desc "This generator installs inflection-js #{InflectionJs::Rails::INFLECTION_JS_VERSION}"
+        desc "This generator installs inflection-js #{Inflectionjs::Rails::INFLECTION_JS_VERSION}"
         source_root File.expand_path('../../../../../vendor/assets/javascripts', __FILE__)
 
-        def copy_inflection_js
-          say_status("copying", "inflection-js (#{InflectionJs::Rails::INFLECTION_JS_VERSION})", :green)
+        def copy_inflectionjs
+          say_status("copying", "inflection-js (#{Inflectionjs::Rails::INFLECTION_JS_VERSION})", :green)
           copy_file "inflection.js", "public/javascripts/inflection.js"
         end
 
@@ -18,7 +18,7 @@ if ::Rails.version < "3.1" || !::Rails.application.config.assets.enabled
     end
   end
 else
-  module InflectionJs
+  module Inflectionjs
     module Generators
       class InstallGenerator < ::Rails::Generators::Base
         desc "Just show instructions so people will know what to do when mistakenly using generator for Rails 3.1 apps"

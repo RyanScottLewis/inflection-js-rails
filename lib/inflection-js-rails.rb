@@ -1,1 +1,1 @@
-require 'inflection_js/rails'
+require 'inflectionjs/rails'

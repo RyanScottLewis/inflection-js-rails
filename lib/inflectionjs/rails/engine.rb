@@ -1,4 +1,4 @@
-module InflectionJs
+module Inflectionjs
   module Rails
     class Engine < ::Rails::Engine
     end

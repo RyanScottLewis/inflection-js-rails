@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/inflection_js/rails/version', __FILE__)
+require File.expand_path('../lib/inflectionjs/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "inflection-js-rails"
-  s.version     = InflectionJs::Rails::VERSION
+  s.version     = Inflectionjs::Rails::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Ryan Scott Lewis"]
   s.email       = ["c00lryguy@gmail.com"]
