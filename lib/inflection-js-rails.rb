@@ -1,0 +1,1 @@
+require 'inflection_js/rails'
