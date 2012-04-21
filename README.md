@@ -6,7 +6,11 @@ ActiveSupport style inflections for client-side development for the Rails Asset 
 
 In your Gemfile, add this line:
 
-    gem 'inflection-js-rails'
+```ruby
+gem :assets do
+  gem 'inflection-js-rails'
+end
+```
 
 Now run `bundle install`
 
