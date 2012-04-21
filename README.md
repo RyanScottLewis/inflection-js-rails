@@ -98,4 +98,4 @@ All props goto Ryan Schuft.
 
 ## Copyright
 
-Copyright (c) 2010 Ryan Lewis. See LICENSE for details.
+Copyright (c) 2012 Ryan Lewis. See LICENSE for details.
