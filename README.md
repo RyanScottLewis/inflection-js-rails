@@ -7,7 +7,7 @@ ActiveSupport style inflections for client-side development for the Rails Asset 
 In your Gemfile, add this line:
 
 ```ruby
-gem :assets do
+group :assets do
   gem 'inflection-js-rails'
 end
 ```
